@@ -1,0 +1,16 @@
+.card {
+  padding: 5px;
+  border-radius: 5px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.cardArrow {
+  position: relative;
+  transition: 0.15s;
+  left: 0;
+}
+
+.card:hover .cardArrow {
+  left: 10px;
+}
