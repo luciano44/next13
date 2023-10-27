@@ -1,4 +1,11 @@
 import React from "react"
+import styles from "./styles.module.css"
+import type { Metadata } from "next"
+
+export const metadata: Metadata = {
+  title: "About - L44 Project",
+  description: "Coolest website to ever exist",
+}
 
 export default function RootLayout({
   children,
@@ -8,7 +15,7 @@ export default function RootLayout({
   return (
     <>
       <nav>About Navbar</nav>
-      <main>{children}</main>
+      <main className={styles.main}>{children}</main>
     </>
   )
 }

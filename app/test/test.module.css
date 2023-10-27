@@ -1,0 +1,13 @@
+.container {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  gap: 10px;
+}
+
+.card {
+  max-width: 500px;
+  padding: 25px;
+  border-radius: 5px;
+  background-color: rgb(148, 53, 36);
+}
