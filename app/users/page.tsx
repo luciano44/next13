@@ -16,7 +16,7 @@ export default async function UsersPage() {
   return (
     <section>
       <h3>
-        <Link href="/home">Back to Home</Link>
+        <Link href="/">Back to Home</Link>
         <br />
         {users.map((user) => (
           <>

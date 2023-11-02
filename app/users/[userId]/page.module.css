@@ -1,0 +1,11 @@
+.username {
+  padding: 10px;
+  color: #111;
+  background-color: white;
+}
+
+.username::before {
+  content: "User: ";
+  font-weight: lighter;
+  color: rgba(17, 17, 17, 0.5);
+}
